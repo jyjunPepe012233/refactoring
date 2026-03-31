@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Refactoring/Building")]
-public class BuildingSettingSO : ScriptableObject
+public class BuildingSO : ScriptableObject
 {
 	[SerializeField]
 	private GameObject _prefab;
