@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0c2edd59d741c3901eaa3a1cbfffc7, type: 3}
   m_Name: PowerPlant
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 973749239803732396, guid: ab0400774ea904128afe765bd5b969d7, type: 3}
+  _icon: {fileID: 1074728469, guid: 32baa8269a943dd4490c7bdbc1cd6d2c, type: 3}
   _size: {x: 1, y: 1}
   _pivot: {x: 0.5, y: 0.5}

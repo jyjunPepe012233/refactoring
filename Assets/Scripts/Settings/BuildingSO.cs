@@ -6,6 +6,9 @@ public class BuildingSO : ScriptableObject
 	[SerializeField]
 	private GameObject _prefab;
 	public GameObject Prefab => _prefab;
+
+	[SerializeField] private Sprite _icon;
+	public Sprite Icon => _icon;
 	
 	[Header("Placement")]
 	
