@@ -22,4 +22,9 @@ public class WorldGridService : MonoBehaviour
 	{
 		if (Instance == this) Instance = null;
 	}
+
+	public Vector2 WorldToTileCell(Vector2 vector)
+	{
+		return Grid.WorldToCell(vector) + (_grid.cellSize / 2);
+	}
 }
